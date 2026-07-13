@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Oplus Keyboard Free</string>
+    <string name="xposed_desc">Remap the Meta key on OnePlus devices</string>
+</resources>

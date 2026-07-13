@@ -1,0 +1,12 @@
+[versions]
+agp = "9.2.1"
+ezxhelper = "0.9.2"
+xposed-api = "82"
+
+[libraries]
+ezxhelper = { group = "com.github.kyuubiran", name = "EzXHelper", version.ref = "ezxhelper" }
+xposed-api = { group = "de.robv.android.xposed", name = "api", version.ref = "xposed-api" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
